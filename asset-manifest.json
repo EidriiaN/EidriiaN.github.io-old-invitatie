@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.72088f11.css",
-    "main.js": "/static/js/main.acd68497.js",
-    "static/media/unicorn.jpg": "/static/media/unicorn.f86c063e88e0f8af5e1a.jpg",
-    "static/media/unicorn_countdown.jpg": "/static/media/unicorn_countdown.33f49cad5df5a62c7b44.jpg",
-    "static/media/bebe-inima.png": "/static/media/bebe-inima.f4524afe976c7987d386.png",
-    "static/media/inima.png": "/static/media/inima.b4cbd2cfd3189737136f.png",
-    "static/media/logo.png": "/static/media/logo.c89c62cf4afa1505b090.png",
-    "index.html": "/index.html",
-    "main.72088f11.css.map": "/static/css/main.72088f11.css.map",
-    "main.acd68497.js.map": "/static/js/main.acd68497.js.map"
+    "main.css": "/invitatie-botez-vana-otilia-stefania/static/css/main.06c940bf.css",
+    "main.js": "/invitatie-botez-vana-otilia-stefania/static/js/main.b636d2b1.js",
+    "static/media/unicorn.jpg": "/invitatie-botez-vana-otilia-stefania/static/media/unicorn.f86c063e88e0f8af5e1a.jpg",
+    "static/media/unicorn_countdown.jpg": "/invitatie-botez-vana-otilia-stefania/static/media/unicorn_countdown.33f49cad5df5a62c7b44.jpg",
+    "static/media/bebe-inima.png": "/invitatie-botez-vana-otilia-stefania/static/media/bebe-inima.f4524afe976c7987d386.png",
+    "static/media/inima.png": "/invitatie-botez-vana-otilia-stefania/static/media/inima.b4cbd2cfd3189737136f.png",
+    "static/media/logo.png": "/invitatie-botez-vana-otilia-stefania/static/media/logo.c89c62cf4afa1505b090.png",
+    "index.html": "/invitatie-botez-vana-otilia-stefania/index.html",
+    "main.06c940bf.css.map": "/invitatie-botez-vana-otilia-stefania/static/css/main.06c940bf.css.map",
+    "main.b636d2b1.js.map": "/invitatie-botez-vana-otilia-stefania/static/js/main.b636d2b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.72088f11.css",
-    "static/js/main.acd68497.js"
+    "static/css/main.06c940bf.css",
+    "static/js/main.b636d2b1.js"
   ]
 }
