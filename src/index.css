@@ -1,0 +1,544 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6f1f0;
+  width: 25%;
+  height: 100vh;
+}
+
+.nav-links {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20%;
+  transition: all;
+  transition-duration: 2s;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5em;
+  transition: all 0.5s ease-out;
+}
+
+.nav-links a:hover {
+  text-decoration: underline #bd945a 1.2px;
+  text-underline-offset: 8px;
+}
+
+.footer-nav {
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.75em;
+  margin-top: auto;
+  margin-bottom: 10%;
+  color: #888;
+}
+
+.footer-nav p {
+  margin-top: 0;
+}
+
+.separator {
+  width: 60px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  border-bottom: 1px solid rgba(189, 148, 90, 0.4);
+  margin-top: auto;
+}
+.child_name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 23%;
+}
+
+.child_name img {
+  width: 90px;
+  height: auto;
+}
+
+.child_name h3 {
+  font-size: 36px;
+  color: #bd945a;
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  line-height: 1em;
+}
+
+.child_name p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  text-align: center;
+  font-size: 10px;
+  color: #888;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.overlay {
+  z-index: 0;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(183, 162, 154, 0.464);
+}
+
+.unicorn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images/unicorn.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 60%;
+  background-size: cover;
+}
+
+.unicorn-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.unicorn-text h3 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  margin: 0 0 15px;
+  font-size: 90px;
+  color: #6f42c1;
+  line-height: 1em;
+}
+
+.unicorn-text p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.about {
+  width: 100%;
+  height: 100vh;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #faf8f7;
+}
+
+.child-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url("./images//bebe.jpg");
+}
+
+.child-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 30px;
+}
+
+.child-message h2 {
+  color: #000;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  line-height: 1.25em;
+  margin: 10px 0 10px;
+}
+
+.child-message p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #888;
+  margin: 0 0 20px;
+}
+
+.parents-godparents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.parents-godparents h2 {
+  top: 12px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-size: 50px;
+  color: #bd945a;
+  line-height: 1.5em;
+  margin-bottom: 5px;
+}
+
+.parents-godparents p {
+  color: #000;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 0;
+  margin-top: 12px;
+}
+
+.countdown {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40vh;
+  background: url("./images/unicorn_countdown.jpg") fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 0%;
+}
+
+.count-items {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.count-items h4 {
+  color: #fff;
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-size: 60px;
+  margin-bottom: 5%;
+}
+
+.count-items h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  margin-top: 0;
+  color: #fff;
+  line-height: 1em;
+}
+
+.count-items span {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -1px;
+}
+
+.event {
+  padding: 4%;
+  background-color: #faf8f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+}
+
+.event-img-container {
+  position: relative;
+  margin-top: 2%;
+  width: 45%;
+  height: 100%;
+  background-image: url("./images/inima.png");
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+  background-size: cover;
+}
+
+.event-img {
+  top: 10%;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  z-index: 0;
+  background-image: url("./images/bebe-inima.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20%;
+}
+
+.event-text {
+  margin-left: 2%;
+  width: 55%;
+  height: 100%;
+}
+
+.event-text h4 {
+  display: block;
+  position: relative;
+  top: 12px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-size: 30px;
+  color: #bd945a;
+  line-height: 1.25em;
+  margin-bottom: 10px;
+}
+
+.event-text h3 {
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 3%;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.event-text p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #888;
+  margin: 0 0 20px;
+}
+
+.where-when {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 110vh;
+  padding: 3% 6%;
+  background-color: #faf8f7;
+}
+
+.where-when h3 {
+  position: relative;
+  top: 12px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-size: 30px;
+  color: #bd945a;
+  line-height: 1.5em;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.where-when h2 {
+  color: #000;
+  font-family: "Nunito Sans", sans-serif;
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.where {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  gap: 4%;
+}
+
+.church {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.church-img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.church-text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5% 7%;
+}
+
+.church-text h5 {
+  font-size: 21px;
+  color: #000;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  line-height: 1.25em;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.church-text p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #888;
+  margin-top: 0;
+}
+
+.church-text p i {
+  color: #bd945a;
+  margin-right: 1%;
+}
+
+.church-text p a {
+  text-decoration: none;
+  color: #bd945a;
+}
+
+.restaurant {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.confirm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images/toys.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.confirm-form {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  height: 90%;
+  background-color: white;
+}
+
+.confirm-from img{
+  width: 10px;
+  height: 20px;
+}
+
+.confirm-form h2 {
+
+  top: 12px;
+  font-family: 'Dancing Script' ,cursive;
+  font-weight: 400;
+  font-size: 30px;
+  color: #bd945a;
+  line-height: 1.5em;
+  margin-bottom: 10px;
+}
+
+.border-top{
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.confirm-form p {
+  text-align: center;
+  font-family: 'Nunito Sans' ,sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #888;
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+
+.contact{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.contact a{
+  text-decoration: none;
+  font-family: 'Nunito Sans' ,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #888;
+  margin-top: 0;
+  margin-bottom: 1%;
+  margin-left: 1%;
+}
+
+.contact i{
+  display: inline;
+  margin-right: 2%;
+}
+
+.bebe-img{
+  width: 100%;
+  height: 100%;
+  background-image: url("./images/botez_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
