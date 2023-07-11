@@ -315,7 +315,6 @@ section {
   width: 90%;
   height: 90%;
   position: absolute;
-  z-index: 0;
   background-image: url("./images/bebe-inima.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -344,7 +343,7 @@ section {
   margin-bottom: 3%;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 1.8rem;
   text-transform: uppercase;
 }
 
@@ -554,7 +553,7 @@ section {
     font-size: 1rem;
   }
   .count-items h4 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .count-items h3{
     font-size: 2rem;
@@ -575,21 +574,38 @@ section {
   .event{
     flex-direction: column;
     padding: 1%;
+    height: 100vh;
   }
   .event-img-container{
     width: 100%;
     background-position: 50% 10%;
   }
+  .event-img{
+    width: 100%;
+    height: 60%;
+  }
   .event-text{
     width: 100%;
     padding: 1% 2%;
   }
+  .event-text h4{
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 1%;
+  }
+  .event-text h3{
+    font-size: 1.3rem;
+    margin-top: 0;
+  }
   .where-when{
     padding: 5% 3%;
-    height: 140vh;
+    height: 100%;
   }
   .where{
     flex-direction: column;
     gap: 2%;
+  }
+  .about{
+    height: 100%;
   }
 }
