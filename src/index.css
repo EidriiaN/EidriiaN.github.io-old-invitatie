@@ -572,4 +572,24 @@ section {
     margin-left: 2%;
     margin-inline-end: 2%;
   }
+  .event{
+    flex-direction: column;
+    padding: 1%;
+  }
+  .event-img-container{
+    width: 100%;
+    background-position: 50% 10%;
+  }
+  .event-text{
+    width: 100%;
+    padding: 1% 2%;
+  }
+  .where-when{
+    padding: 5% 3%;
+    height: 140vh;
+  }
+  .where{
+    flex-direction: column;
+    gap: 2%;
+  }
 }
