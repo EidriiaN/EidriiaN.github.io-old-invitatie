@@ -40,10 +40,10 @@ export default function Main() {
                     <p className="date_of_event">3 Septembrie 2023</p>
                 </div>
                 <div className="nav-links">
-                    <a href="#">Acasa</a>
+                    <a href="#">Acasă</a>
                     <a href="#about">Despre</a>
                     <a href="#event">Eveniment</a>
-                    <a href="#where-when">Unde si cand</a>
+                    <a href="#where-when">Unde și când</a>
                     <a href="#">Confirmare</a>
                 </div>
                 <div className="footer-nav">
@@ -129,7 +129,7 @@ export default function Main() {
 
                                 <p>
                                     <i className="fa-solid fa-signs-post"></i>
-                                    <a href="https://www.google.com/maps?daddr=44.98580279999999,26.1389582&amp;ll" target="_blank" rel="noopener noreferrer">Vezi hartă</a>
+                                    <a href="https://www.google.com/maps/dir//44.9858028,26.1389582/@44.9857814,26.0689184,12z?entry=ttu" target="_blank" rel="noopener noreferrer">Vezi hartă</a>
                                 </p>
                             </div>
                         </div>
@@ -172,11 +172,11 @@ export default function Main() {
                         <div className="contact">
                             <div className="number1">
                                 <h2>Octavian</h2>
-                                <a href="tel:+0722196231"><i className="fa-solid fa-phone"></i>0722196231</a>
+                                <a href="tel:+0786499645"><i className="fa-solid fa-phone"></i>0786499645</a>
                             </div>
                             <div className="number2">
                                 <h2>Silvia</h2>
-                                <a href="tel:+0722196231"><i className="fa-solid fa-phone"></i>0722196231</a>
+                                <a href="tel:+0766870956"><i className="fa-solid fa-phone"></i>0766870956</a>
                             </div>
                         </div>
                         <div className="bebe-img"></div>
