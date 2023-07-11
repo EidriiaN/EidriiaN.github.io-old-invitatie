@@ -33,7 +33,7 @@ export default function Main() {
     return (
 
         <div className="main">
-            <nav>
+            <nav> 
                 <div className="child_name">
                     <img src={logo} alt="logo" />
                     <h3>Otilia Stefania</h3>

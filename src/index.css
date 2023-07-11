@@ -133,6 +133,8 @@ nav {
 }
 
 .unicorn-text {
+  width: 100%;
+  height: 100%;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -144,14 +146,14 @@ nav {
   font-family: "Dancing Script", cursive;
   font-weight: 700;
   margin: 0 0 15px;
-  font-size: 90px;
+  font-size: 6rem;
   color: #6f42c1;
   line-height: 1em;
 }
 
 .unicorn-text p {
   font-family: "Nunito Sans", sans-serif;
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: 400;
   letter-spacing: 2px;
   margin-bottom: 0;
@@ -264,14 +266,14 @@ section {
   color: #fff;
   font-family: "Dancing Script", cursive;
   font-weight: 400;
-  font-size: 60px;
+  font-size: 4rem;
   margin-bottom: 5%;
 }
 
 .count-items h3 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 3.75rem;
   margin-top: 0;
   color: #fff;
   line-height: 1em;
@@ -279,7 +281,7 @@ section {
 
 .count-items span {
   font-family: "Nunito Sans", sans-serif;
-  font-size: 60px;
+  font-size: 4rem;
   font-weight: 700;
   color: #fff;
   letter-spacing: -1px;
@@ -327,12 +329,10 @@ section {
 }
 
 .event-text h4 {
-  display: block;
-  position: relative;
   top: 12px;
   font-family: "Dancing Script", cursive;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 2rem;
   color: #bd945a;
   line-height: 1.25em;
   margin-bottom: 10px;
@@ -397,7 +397,7 @@ section {
 .church {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
   height: 100%;
   background-color: #fff;
 }
@@ -449,7 +449,7 @@ section {
 .restaurant {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
   height: 100%;
   background-color: #fff;
 }
@@ -471,7 +471,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 45%;
+  width: 50%;
   height: 90%;
   background-color: white;
 }
@@ -541,4 +541,35 @@ section {
   background-image: url("./images/botez_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
+  nav {
+    display: none;
+  }
+  .unicorn-text h3{
+    font-size: 4rem;
+  }
+  .unicorn-text p {
+    font-size: 1rem;
+  }
+  .count-items h4 {
+    font-size: 2rem;
+  }
+  .count-items h3{
+    font-size: 2rem;
+  }
+  .count-items span{
+    font-size: 2rem;
+  }
+  .confirm-form{
+    width: 80%;
+  }
+  .bebe-img{
+    background-position: 30%;
+  }
+  .confirm-form p{
+    margin-left: 2%;
+    margin-inline-end: 2%;
+  }
 }
