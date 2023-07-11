@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/invitatie-botez-vana-otilia-stefania/static/css/main.06c940bf.css",
-    "main.js": "/invitatie-botez-vana-otilia-stefania/static/js/main.b636d2b1.js",
+    "main.css": "/invitatie-botez-vana-otilia-stefania/static/css/main.e957bc7a.css",
+    "main.js": "/invitatie-botez-vana-otilia-stefania/static/js/main.e23b2507.js",
     "static/media/unicorn.jpg": "/invitatie-botez-vana-otilia-stefania/static/media/unicorn.f86c063e88e0f8af5e1a.jpg",
     "static/media/unicorn_countdown.jpg": "/invitatie-botez-vana-otilia-stefania/static/media/unicorn_countdown.33f49cad5df5a62c7b44.jpg",
     "static/media/bebe-inima.png": "/invitatie-botez-vana-otilia-stefania/static/media/bebe-inima.f4524afe976c7987d386.png",
     "static/media/inima.png": "/invitatie-botez-vana-otilia-stefania/static/media/inima.b4cbd2cfd3189737136f.png",
+    "static/media/restaurant.jpeg": "/invitatie-botez-vana-otilia-stefania/static/media/restaurant.d1db0c30a32c23259896.jpeg",
+    "static/media/church.jpg": "/invitatie-botez-vana-otilia-stefania/static/media/church.106ea3922c8937e4a918.jpg",
     "static/media/logo.png": "/invitatie-botez-vana-otilia-stefania/static/media/logo.c89c62cf4afa1505b090.png",
     "index.html": "/invitatie-botez-vana-otilia-stefania/index.html",
-    "main.06c940bf.css.map": "/invitatie-botez-vana-otilia-stefania/static/css/main.06c940bf.css.map",
-    "main.b636d2b1.js.map": "/invitatie-botez-vana-otilia-stefania/static/js/main.b636d2b1.js.map"
+    "main.e957bc7a.css.map": "/invitatie-botez-vana-otilia-stefania/static/css/main.e957bc7a.css.map",
+    "main.e23b2507.js.map": "/invitatie-botez-vana-otilia-stefania/static/js/main.e23b2507.js.map"
   },
   "entrypoints": [
-    "static/css/main.06c940bf.css",
-    "static/js/main.b636d2b1.js"
+    "static/css/main.e957bc7a.css",
+    "static/js/main.e23b2507.js"
   ]
 }
