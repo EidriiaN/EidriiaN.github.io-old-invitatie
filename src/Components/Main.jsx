@@ -33,7 +33,7 @@ export default function Main() {
     return (
 
         <div className="main">
-            <nav> 
+            <nav>
                 <div className="child_name">
                     <img src={logo} alt="logo" />
                     <h3>Otilia Stefania</h3>
@@ -77,10 +77,10 @@ export default function Main() {
                     <div className="count-items">
                         <h4>Încă puțin până la ziua cea mare:</h4>
                         <div className="count-time">
-                            <span>{days}d </span>
-                            <span>{hours}h </span>
-                            <span>{minutes}m </span>
-                            <span>{seconds}s </span>
+                            <span>{days} zile </span>
+                            <span>{hours} ore </span>
+                            <span>{minutes} minute </span>
+                            <span>{seconds} secunde</span>
                         </div>
                     </div>
                 </div>
@@ -148,7 +148,7 @@ export default function Main() {
 
                                 <p>
                                     <i className="fa-solid fa-clock"></i>
-                                    Duminică, 22 Ianuarie 2023, 12:00
+                                    Duminică, 3 Septembrie 2023, 17:00
                                 </p>
 
                                 <p>
@@ -183,7 +183,17 @@ export default function Main() {
 
                     </div>
                 </div>
+
+                <footer className="footer">
+                    <div className="footer-div">
+                        <img src={logo} alt="logo" />
+                        <h2>Otilia Ștefania</h2>
+                        <p>3 Septembrie 2023 - Blejoi, România</p>
+                    </div>
+
+                </footer>
             </section>
+
 
         </div>
     )
