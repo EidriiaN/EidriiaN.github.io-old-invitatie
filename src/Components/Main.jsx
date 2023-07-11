@@ -44,7 +44,7 @@ export default function Main() {
                     <a href="#about">Despre</a>
                     <a href="#event">Eveniment</a>
                     <a href="#where-when">Unde și când</a>
-                    <a href="#">Confirmare</a>
+                    <a href="#confirm">Confirmare</a>
                 </div>
                 <div className="footer-nav">
                     <span className="separator"></span>
@@ -159,7 +159,7 @@ export default function Main() {
                         </div>
                     </div>
                 </div>
-                <div className="confirm">
+                <div className="confirm" id="confirm">
                     <div className="overlay"></div>
                     <div className="confirm-form">
                         <h2>Vei participa?</h2>
